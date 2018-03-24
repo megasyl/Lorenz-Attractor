@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Lorrenz Attractor</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+
+</head>
+<body>
+<div id="legend">
+    <h1>Lorenz Attractor</h1>
+    <p>Number of systems: <input type="text" id="count" value="5"></p>
+    <p>Systems: <span id="initialValue"></span></p>
+    <p id="systems">
+
+    </p>
+    <p>elapsed time: <span id="time"></span></p>
+    <button id="render" onclick="document.app.run()">Initialize</button>
+    <button id="continue" onclick="document.app.run()">Continue</button>
+    <button id="stop" onclick="document.app.stop()">Stop</button>
+</div>
+</body>
+<script type="text/javascript" src="bundle.js"></script>
+</body>
+</html>

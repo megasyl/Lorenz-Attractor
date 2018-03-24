@@ -1,0 +1,29 @@
+@import url('http://fonts.googleapis.com/css?family=Open+Sans:400,300,700');
+
+body {
+    font-family: "Open Sans";
+}
+
+#legend {
+    position: absolute;
+    left: 10px;
+    top: 10px;
+}
+
+#legend h1 {
+    font-weight: 700;
+    position: relative;
+}
+
+#instructions {
+    font-weight: 300;
+}
+
+.color-box {
+    width: 10px;
+    height: 10px;
+    display: inline-block;
+    background-color: #ccc;
+    left: 5px;
+    top: 5px;
+}
